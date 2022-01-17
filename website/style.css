@@ -1,0 +1,105 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  color: rgb(4, 4, 78);
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: rgb(4, 4, 78);
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.headline {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgba(4, 4, 78, 0.932);
+}
+
+.in-out-container {
+  background-color: rgba(238, 238, 238, 0.5);
+  border-radius: 1rem;
+}
+
+.holder input,
+.holder textarea {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.8rem;
+}
+
+.holder input:focus,
+.holder textarea:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+label {
+  color: rgb(4, 4, 78);
+  font-size: 1.2rem;
+}
+
+.form-control:focus {
+  border-color: rgba(4, 4, 78, 0.5);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0px 0px 8px rgba(59, 59, 148, 0.6);
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(4, 4, 78, 0.6);
+}
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgba(4, 4, 78, 0.6);
+}
+.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgba(4, 4, 78, 0.6);
+}
+
+button#generate {
+  border-radius: 0.8rem;
+  transition: 0.4s;
+
+  box-shadow: 0px 1px 8px 0px rgba(4, 4, 78, 0.88);
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(4, 4, 78, 0.88);
+  -moz-box-shadow: 0px 1px 8px 0px rgba(4, 4, 78, 0.88);
+}
+
+button#generate:hover {
+  background-color: rgb(4, 4, 78);
+  color: whitesmoke;
+}
+
+.entry {
+  animation: fadein 1.7s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+.entry .title,
+footer p {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+}
