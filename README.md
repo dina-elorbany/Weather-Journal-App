@@ -34,27 +34,27 @@
 
 > First page loading or reloading.
 
-![]('./website/assets/app-successed-call-without-feeling.png')
+![app-successed-call-without-feeling]('./website/assets/app-successed-call-without-feeling.png')
 
 > Successed call without entering feeling.
 
-![]('./website/assets/app-successed-call-with-feeling.png')
+![app-successed-call-with-feeling]('./website/assets/app-successed-call-with-feeling.png')
 
 > Successed call with entering feeling.
 
-![]('./website/assets/app-failed-call.png')
+![app-failed-call]('./website/assets/app-failed-call.png')
 
 > Failed call
 
-![]('./website/assets/app-successed-call-enter-key.png')
+![app-successed-call-enter-key]('./website/assets/app-successed-call-enter-key.png')
 
 > Successed call using enter key instead of button.
 
-![]('./website/assets/app-failed-call-enter-key.png')
+![app-failed-call-enter-key]('./website/assets/app-failed-call-enter-key.png')
 
 > Failed call using enter key instead of button.
 
-![]('./website/assets/app-empty-call-enter-key.png')
+![app-empty-call-enter-key]('./website/assets/app-empty-call-enter-key.png')
 
 > This was the error if the user made a call for an empty input using the enter key but I have also locked this case cause it's not realistic.
 
