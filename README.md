@@ -30,7 +30,7 @@
 
 ## Images
 
-![]('./website/assets/app-first-reload.png')
+![app-first-reload]('./website/assets/app-first-reload.png')
 
 > First page loading or reloading.
 
